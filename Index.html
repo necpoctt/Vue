@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Vue</title>
+    <script src="Script/vue.min.js"></script>
+    <script src="Script/jquery-1.6.4.min.js"></script>
+    <script src="app/customized.js"></script>
+</head>
+<body>
+    <script type="text/x-template" id="view-customized-template">
+        <div>
+            Hello World
+            <input type="text" v-model="id" />
+            <span>{{id}}</span>
+        </div>
+    </script>
+
+    <div id="app">
+        <view-customized></view-customized>
+    </div>
+</body>
+</html>
